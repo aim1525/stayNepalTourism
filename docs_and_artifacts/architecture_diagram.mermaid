@@ -1,0 +1,15 @@
+```mermaid
+graph TD
+    Client["React 18 + Vite Frontend\n(Bilingual i18next + Web Speech API FR-10)"]
+    Backend["Node.js 20 + Express.js REST API\n(JWT Auth + RBAC + Multer + Nodemailer)"]
+    DB[("PostgreSQL 15 + PostGIS DB\n(77 Nepal Districts + 5 Relational Tables)")]
+    AIService["Python FastAPI Microservice\n(CBF + UBCF + NCF PyTorch + JM Distance)"]
+    PaymentAdapters["Unified PaymentService Adapter\n(eSewa Sandbox | Khalti Sandbox | FonePay Sandbox)"]
+
+    Client -->|REST API / HTTP| Backend
+    Client -->|Speech-to-Text| Client
+    Backend -->|Spatial Queries / Haversine| DB
+    Backend -->|Payment Verification| PaymentAdapters
+    Backend -->|Recommendation Request| AIService
+    AIService -->|Interaction Matrix| DB
+```

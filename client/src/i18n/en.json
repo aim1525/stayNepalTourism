@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "home": "Home",
+    "homestays": "Explore Homestays",
+    "ai_recommendations": "AI Top-5 Recommendations",
+    "host_dashboard": "Host Dashboard",
+    "admin_dashboard": "Admin Portal",
+    "sus_evaluation": "Usability Analytics (SUS)",
+    "culture": "77 Districts Culture",
+    "ai_planner": "AI Smart Planner",
+    "login": "Sign In",
+    "register": "Register",
+    "logout": "Logout"
+  },
+  "hero": {
+    "badge": "AI-Powered Bilingual Platform across all 77 Districts of Nepal",
+    "title_part1": "Experience Authentic",
+    "title_part2": "Rural Hospitality in Nepal",
+    "subtitle": "Connecting world travelers with local host families. AI recommendations powered by CBF, UBCF, and Neural Collaborative Filtering (NCF).",
+    "search_district": "Select District (77 Available)",
+    "search_button": "Search Homestays",
+    "voice_onboarding": "Voice-Assisted Host Onboarding (FR-10)"
+  },
+  "filter": {
+    "all_districts": "All 77 Districts",
+    "price_range": "Max Price (NPR):",
+    "cultural_experience": "Cultural Heritage:",
+    "all_cultures": "All Cultures",
+    "search_placeholder": "Search by village, host, or homestay..."
+  },
+  "ai": {
+    "title": "Top-5 Personalised AI Homestay Recommendations",
+    "subtitle": "Compare machine learning recommendation models trained on rural Nepal tourist interaction profiles.",
+    "cbf_btn": "Content-Based (CBF)",
+    "ubcf_btn": "Collaborative (UBCF)",
+    "ncf_btn": "Neural Net (NCF)",
+    "precision": "Precision@10:",
+    "recall": "Recall@10:",
+    "f1": "F1-Score:"
+  },
+  "host": {
+    "create_title": "Register Your Rural Homestay",
+    "voice_title": "Voice Assistant Active — Speak to fill form fields in EN/NE",
+    "start_speaking": "Start Speaking",
+    "stop_speaking": "Listening...",
+    "field_title_en": "Homestay Title (English)",
+    "field_title_ne": "Homestay Title (Nepali)",
+    "field_district": "District",
+    "field_village": "Village / Gaun",
+    "field_price": "Price per Night (NPR)",
+    "field_capacity": "Guest Capacity",
+    "field_culture": "Cultural Heritage Group",
+    "submit": "Submit Homestay for Admin Verification"
+  },
+  "booking": {
+    "check_in": "Check-In Date",
+    "check_out": "Check-Out Date",
+    "guests": "Number of Guests",
+    "total": "Total Amount:",
+    "book_now": "Reserve Now (Double-Booking Protected)",
+    "pay_esewa": "Pay with eSewa",
+    "pay_khalti": "Pay with Khalti",
+    "pay_fonepay": "Pay with FonePay"
+  },
+  "sdg": {
+    "title": "Aligned with United Nations Sustainable Development Goals",
+    "sdg8": "SDG 8: Decent Work & Economic Growth in rural villages",
+    "sdg10": "SDG 10: Reduced Inequalities across 77 districts",
+    "sdg17": "SDG 17: Partnerships for Community Tourism"
+  }
+}
